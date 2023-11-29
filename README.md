@@ -1,9 +1,9 @@
 # CGP_python_jumpy_game
-Jumping game AI using Cartesian Genetic Programming (Evolutionary Computation)
 
+An Evolutionary Algorithm called Cartesian Genetic Programming is used to evolve an AI to jump on platforms.
 
-An AI that learns to jump on platforms, using Cartesian Genetic Programming algorithm.
- 
+The repository contains the following files:
+
 `main.py` : To run the game played using Cartesian Genetic Programming algorithm 
 
 `gameHuman.py` : to play the game using user input (left and right arrow for movement and up arrow to jump)
@@ -17,6 +17,7 @@ An AI that learns to jump on platforms, using Cartesian Genetic Programming algo
 `sprites.py` : Game sprites classes (player and platform)
 
 `postprocess.py` : Obtain the math formula and the CGP trees
+
 
 <p align="center">
   <img src="GithubImage/GameScene.png" width="361.6" height="538.4">
