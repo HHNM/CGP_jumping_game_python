@@ -3,18 +3,25 @@ Jumping game AI using Cartesian Genetic Programming (Evolutionary Computation)
 
 
 An AI that learns to jump on platforms, using Cartesian Genetic Programming algorithm.
+ 
+`main.py` : To run the game played using Cartesian Genetic Programming algorithm 
 
-- There are 3 independent python files:
+`gameHuman.py` : to play the game using user input (left and right arrow for movement and up arrow to jump)
 
-  `redjumps_withuser_inputs.py` : you can play and test the game using user inputs: left, right and up keys, to make sure that the game is playable.
+`CGP.py` : The Cartesian Genetic Programming Algorithm.
 
-  `redjumps_ai_without_neat.py` : the character jumps using a movetoplatform() function.
+`gameAI.py` :  modification on `gameHuman.py` to be played and executed using the CGP instead of user input by a population of players.
 
-  `redjumps_neat.py` : the ai learns to jump using NEAT-python.
+`settings.py` : Game settings
 
+`sprites.py` : Game sprites classes (player and platform)
+
+`postprocess.py` : Obtain the math formula and the CGP trees
 
 <p align="center">
   <img src="GithubImage/GameScene.png" width="361.6" height="538.4">
 </p>
 
-<sub >*The work on the inputs can still be improved.*</sub>
+
+# References
+The CGP code is based on this [repository](https://github.com/ShuhuaGao/gpFlappyBird)
